@@ -15,7 +15,7 @@ jobs:
 #          command: ./manage.py test
 #          name: Test
   lint:
-    executor: python
+    executor: python/default
     steps:
       - run:
           command: pip install black; black --check .
