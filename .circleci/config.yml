@@ -15,10 +15,10 @@ jobs:
 #          command: ./manage.py test
 #          name: Test
   lint:
-    executor: python/default
+    executor: python
     steps:
       - run:
-          command: black --check .
+          command: pip install black; black --check .
           name: Lint
 
 workflows:
