@@ -19,7 +19,7 @@ jobs:
     steps:
       - checkout
       - run:
-          command: pip installl black; black --check .
+          command: pip install black; black --check .
           name: Lint
 
 workflows:
