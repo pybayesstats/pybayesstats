@@ -18,7 +18,7 @@ jobs:
     executor: python/default
     steps:
       - run:
-          command: pip install black; black --check .
+          command: black --check .
           name: Lint
 
 workflows:
