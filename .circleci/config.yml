@@ -18,8 +18,8 @@ jobs:
     executor: python/default
     steps:
       - run:
-        command: black --check .
-        name: Lint
+          command: black --check .
+          name: Lint
 
 workflows:
   main:
