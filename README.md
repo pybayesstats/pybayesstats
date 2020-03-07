@@ -1,6 +1,5 @@
 ![PyBayesStats Logo Banner](https://raw.githubusercontent.com/pybayesstats/pybayesstats/master/img/Thomas-Bayes-Blog.png)
 
-[![Build Status](https://circleci.com/gh/pybayesstats/pybayesstats.svg?style=shield)](https://circleci.com/gh/pybayesstats/pybayesstats)
 | Theme | Status |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Build | [![Build Status](https://circleci.com/gh/pybayesstats/pybayesstats.svg?style=shield)](https://circleci.com/gh/pybayesstats/pybayesstats) |
